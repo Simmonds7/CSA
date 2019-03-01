@@ -29,18 +29,21 @@ public class MainActivity extends AppCompatActivity {
         //outputText.append("none");
         outputText.append("\nSongs:");
 
-        Song song1 = new Song();
-        song1.setTitle("\nJohnny \uD83C\uDD71. Goode");
+        Song song1 = new Song("\nJohnny \uD83C\uDD71. Goode", 1.29, 9);
         outputText.append(song1.getTitle());
+        outputText.append("\nRating: " + song1.getRating());
+        outputText.append("\nPrice: $" + song1.getPrice());
 
-        outputText.append("\nBooks:");
-        Book book1 = new Book();
-        book1.setTitle("\nHarry Potter and The Infinity Gauntlet");
+        outputText.append("\n\nBooks:");
+        Book book1 = new Book("\nHarry Potter and The Infinity Gauntlet", 1.29, 10);
         outputText.append(book1.getTitle());
+        outputText.append("\nRating: " + book1.getRating());
+        outputText.append("\nPrice: $" + book1.getPrice());
 
-        outputText.append("\nMovies:");
-        Movie movie1 = new Movie();
-        movie1.setTitle("\n\uD83C\uDD71eter Griffin and the Infinity Gauntlet");
+        outputText.append("\n\nMovies:");
+        Movie movie1 = new Movie("\n\uD83C\uDD71eter Griffin and the Infinity Gauntlet", 10.00, 4);
         outputText.append(movie1.getTitle());
+        outputText.append("\nRating: " + movie1.getRating());
+        outputText.append("\nPrice: $" + movie1.getPrice());
     }
 }
