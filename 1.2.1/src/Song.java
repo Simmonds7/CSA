@@ -40,6 +40,9 @@ public class Song
 
         numSongsInLibrary = numSongsInLibrary + 1;
     }
+    public Song(String title) {
+        this.title = title;
+    }
 
     public String getTitle() {
         return title;
