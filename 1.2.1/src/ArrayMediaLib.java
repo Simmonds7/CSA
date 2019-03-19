@@ -1,6 +1,6 @@
 public class ArrayMediaLib
 {
-    static int total;
+
 
     public static void main(String args[])
     {/*
@@ -12,44 +12,53 @@ public class ArrayMediaLib
     };
     for (int i = 0; i < sharingFriends.length; i++)
     {
-            System.out.println(sharingFriends[i]);
+        System.out.println(sharingFriends[i]);
     }
 
     int[] daysBtwnPurchase = {2, 5, 1, 2, 4, 2, 1, 3};
-    for (int item: daysBtwnPurchase)
+    int total = 0;
+    for (int value: daysBtwnPurchase)
     {
-            total = daysBtwnPurchase[item] + total;
-
+        total = daysBtwnPurchase[value] + total;
     }
 
     System.out.println(total/daysBtwnPurchase.length);
     */
-    Song[] topTenSongs = {  new Song("The Twist"),
-                            new Song("Smooth"),
-                            new Song("Mack the Knife"),
-                            new Song("How do I Live"),
-                            new Song("Party Rock Anthem"),
-                            new Song("I Gotta feeling"),
-                            new Song("Macarena"),
-                            new Song("Physical"),
-                            new Song("You Light Up My Life"),
-                            new Song("Hey Jude"),
-                            new Song("Crab Rave")
+    Song[] topTenSongs = {  new Song("The Twist", 0),
+                            new Song("Smooth", 0),
+                            new Song("Mack the Knife", 0),
+                            new Song("How do I Live", 0),
+                            new Song("Party Rock Anthem", 0),
+                            new Song("I Gotta feeling", 0),
+                            new Song("Macarena", 0),
+                            new Song("Physical",0),
+                            new Song("You Light Up My Life",0),
+                            new Song("Hey Jude",0),
+                            new Song("Crab Rave",0)
     };
-        // change the array
+        /* change the array
         System.out.println("-BEFORE--");
         for (Song changeSong : topTenSongs) {
             changeSong = new Song("test");
             System.out.println(changeSong.getTitle());
         }
-// show the array
+        // show the array
         System.out.println("-AFTER--");
         for (Song showSong : topTenSongs) {
             System.out.println(showSong.getTitle());
-        }
+        } */
+        int count = 1;
     for (Song s: topTenSongs)
     {
-            System.out.println(s.getTitle());
+        if (count % 3 == 0 ) {
+            s.setPrice(0.99);
+        }
+        else
+        {
+            s.setPrice(1.29);
+        }
+        count = count + 1;
+            System.out.println(s.getTitle() + " | Price: $" + s.getPrice());
     }
     }
 
