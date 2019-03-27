@@ -49,31 +49,31 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mpA.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpA2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpHE.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpHE2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpHFS.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpHFS2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpHE3.start();
-                delayPlaying(WHOLE_NOTE * 2);
+                delayPlaying(WHOLE_NOTE);
                 mpD.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpD2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpCS.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpCS2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpB.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpB2.start();
-                delayPlaying(WHOLE_NOTE);
+                delayPlaying(WHOLE_NOTE / 2);
                 mpA.start();
             }
         });
