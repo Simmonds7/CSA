@@ -3,12 +3,13 @@ import java.util.Scanner;
 
 public class ArrayTest
 {
-    public static void main(String[] args){
-        ArrayList<Integer> scores = new ArrayList();
-        Scanner keyboard = new Scanner(System.in);
-        int enterNum = 0;
-        int total = 0;
-        int average = 0;
+    ArrayList<Integer> scores = new ArrayList();
+    static Scanner keyboard = new Scanner(System.in);
+    static int enterNum = 0;
+    static int total = 0;
+    static int average = 0;
+    public void main(String[] args){
+
         System.out.println("Please enter Scores. Use 999 to exit.");
 
         do
@@ -24,6 +25,11 @@ public class ArrayTest
             }
         } while (enterNum != 999);
 
+        display(scores);
+    }
+
+    public static void display(ArrayList<Integer> scores)
+    {
         for (int i = 0; i < scores.size(); ++i)
         {
             System.out.println("Score " + (i + 1) + ": " + scores.get(i));
