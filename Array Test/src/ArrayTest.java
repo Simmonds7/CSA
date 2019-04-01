@@ -3,12 +3,12 @@ import java.util.Scanner;
 
 public class ArrayTest
 {
-    ArrayList<Integer> scores = new ArrayList();
+    static ArrayList<Double> scores = new ArrayList();
     static Scanner keyboard = new Scanner(System.in);
-    static int enterNum = 0;
-    static int total = 0;
-    static int average = 0;
-    public void main(String[] args){
+    static double enterNum = 0;
+    static double total = 0;
+    static double average = 0;
+    public static void main(String[] args){
 
         System.out.println("Please enter Scores. Use 999 to exit.");
 
@@ -28,7 +28,7 @@ public class ArrayTest
         display(scores);
     }
 
-    public static void display(ArrayList<Integer> scores)
+    public static void display(ArrayList<Double> scores)
     {
         for (int i = 0; i < scores.size(); ++i)
         {
