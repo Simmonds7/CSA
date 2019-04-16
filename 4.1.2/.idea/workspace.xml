@@ -36,7 +36,7 @@
       <file leaf-file-name="ConcentrationRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConcentrationRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
+            <state relative-caret-position="-783">
               <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -183,7 +183,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-5" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -194,7 +193,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26675427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26675427" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -423,7 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConcentrationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
+        <state relative-caret-position="-783">
           <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
